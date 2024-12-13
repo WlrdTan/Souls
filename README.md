@@ -1,7 +1,7 @@
 # Souls-
 An interactive game made using assembly language that simulates a fast-paced combat system with timing-based inputs.
 
-Game Controls
+**Game Controls**
 
 The game uses the numeric keypad for input. Here are the control keys:
 
@@ -19,7 +19,7 @@ Attack: Press 0
 
 Play Again: Press y (yes) or n (no) when prompted
 
-Installation
+**Installation**
 
 To run Souls Game, you will need to have the following:
 
@@ -27,7 +27,7 @@ Assembler: An assembler that supports Assembly x86, such as MASM (Microsoft Macr
 
 Irvine32 Library: Ensure you have the Irvine32.inc file included in your project directory.
 
-Steps to Run
+**Steps to Run**
 
 Clone or download the source code.
 
@@ -37,7 +37,7 @@ Assemble and link the source code to create an executable.
 
 Run the executable from the console.
 
-How to Play
+**How to Play**
 
 Start the Game: Run the executable and press 5 to start the game.
 
@@ -51,7 +51,7 @@ Game Over: If you fail to dodge or miss an attack opportunity, the game ends, an
 
 Play Again: You will be prompted to play again. Press y to restart or n to exit.
 
-Game Logic
+**Game Logic**
 
 Randomized Attacks: The opponent launches random attacks (left, right, up, down) in each round.
 
@@ -59,11 +59,11 @@ Timed Inputs: You must respond within a set time limit for each attack. If you a
 
 Scoring: Each successful counterattack increases your score. Once you reach 10 successful counterattacks, you win.
 
-Key Flow
+**Key Flow**
 
 Start → Random Attack → Player Dodge → Repeat (5 attacks per round) → Player Counterattack → Score Update → Victory/Defeat
 
-Technical Details
+**Technical Details**
 
 The game is developed using Assembly x86 with the following components:
 
@@ -77,7 +77,7 @@ Input Timing: Captures the player's response time using the GetLocalTime functio
 
 Color-Coded Messages: Different message types are displayed using colored text to provide visual feedback to the player.
 
-Future Enhancements
+**Future Enhancements**
 
 Possible improvements and new features:
 
